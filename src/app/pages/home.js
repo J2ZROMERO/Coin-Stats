@@ -1,10 +1,20 @@
-import { NavLink } from 'react-router-dom';
+import Header from '../components/headerMain';
+import Lichild from '../components/liElementsitems';
 
 const HomePage = () => (
 
   <button type="button">
     {' '}
-    <NavLink to="/details">ir a details </NavLink>
+
+    <section>
+
+      <Header />
+      <ul>
+        <Lichild title="dada" extraData="sdasdsa" />
+
+      </ul>
+    </section>
+
   </button>
 );
 

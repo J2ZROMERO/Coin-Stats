@@ -1,4 +1,4 @@
-import counterReducer, {
+/* import counterReducer, {
   increment,
   decrement,
   incrementByAmount,
@@ -31,3 +31,4 @@ describe('counter reducer', () => {
     expect(actual.value).toEqual(5);
   });
 });
+*/
