@@ -1,21 +1,41 @@
+import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect } from 'react';
 import Header from '../components/headerMain';
 import Lichild from '../components/liElementsitems';
+import { getCoinsData } from '../redux/coins';
 
-const HomePage = () => (
+const HomePage = () => {
+  const dataCoins = useSelector((state) => state);
 
-  <button type="button">
-    {' '}
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getCoinsData());
+  }, [dispatch]);
 
-    <section>
+  return (
+    <>
+      <section>
 
-      <Header />
-      <ul>
-        <Lichild title="dada" extraData="sdasdsa" />
+        <Header />
 
-      </ul>
-    </section>
+        <ul>
+          { dataCoins.coins.map(
+            (c) => (
+              c.coins.map((v) => (
+                <Lichild
+                  key={v.id}
+                  icon={v.icon}
+                  title={v.name}
+                  extraData={v.price === '' ? '' : (v.price).toString()}
+                />
+              ))
 
-  </button>
-);
+            ),
+          ) }
+        </ul>
+      </section>
+    </>
+  );
+};
 
 export default HomePage;
