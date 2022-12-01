@@ -7,7 +7,7 @@ const Header = () => (
       <li>
 
         <button type="button">
-          <NavLink to="../">ir a home </NavLink>
+          <NavLink to="/home">ir a home </NavLink>
           <img src="dasdasddasda" alt="20px" />
 
         </button>
