@@ -24,6 +24,7 @@ const HomePage = () => {
               c.coins.map((v) => (
                 <Lichild
                   key={v.id}
+                  id={v.id}
                   icon={v.icon}
                   title={v.name}
                   extraData={v.price === '' ? '' : (v.price).toString()}

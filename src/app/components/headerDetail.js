@@ -1,13 +1,13 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-
   <header>
     <ul>
       <li>
 
         <button type="button">
-          <NavLink to="/home">ir a home </NavLink>
+          <NavLink to="../">ir a home </NavLink>
           <img src="dasdasddasda" alt="20px" />
 
         </button>
@@ -23,5 +23,4 @@ const Header = () => (
   </header>
 
 );
-
 export default Header;

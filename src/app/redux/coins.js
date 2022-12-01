@@ -42,14 +42,15 @@ const coinssSlice = createSlice({
   name: 'coins',
   initialState,
   reducers: {
-    getCoins(state, action) {
-      const newState = state.map((index) => {
-        if (action.payload !== index.id) {
-          return { ...index, data: 'otro' };
-        }
-        return { ...index };
-      });
-      return newState;
+    getCoinsById(state, action) {
+      const val = state[0].coins.filter((x) => x.id === action.payload);
+      // initialState = [{ val }];
+      return [{
+        coins: val,
+      }];
+    },
+    getStateAfterClick(state) {
+      return state;
     },
   },
 
@@ -61,5 +62,6 @@ const coinssSlice = createSlice({
     builder.addCase(getCoinsData.pending, (_, action) => action.payload);
   },
 });
-export const { getCoins } = coinssSlice.actions;
+export const { getCoinsById } = coinssSlice.actions;
+export const { getStateAfterClick } = coinssSlice.actions;
 export default coinssSlice.reducer;
