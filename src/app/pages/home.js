@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Header from '../components/headerMain';
 import Lichild from '../components/liElementsitems';
 import { getCoinsData } from '../redux/coins';
+import '../styles/home.css';
 
 const HomePage = () => {
   const dataCoins = useSelector((state) => state);
@@ -14,11 +15,11 @@ const HomePage = () => {
 
   return (
     <>
-      <section>
+      <section className="PrincipalContent">
 
         <Header />
-
-        <ul>
+        <h1 className="coinstitle">CRYPTO COINS</h1>
+        <ul className="showAllCoins">
           { dataCoins.coins.map(
             (c) => (
               c.coins.map((v) => (

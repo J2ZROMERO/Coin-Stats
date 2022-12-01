@@ -1,39 +1,29 @@
-import Hamburger from 'hamburger-react';
-import { useState } from 'react';
+import '../styles/headerMain.css';
+import back from '../../assets/back.png';
+import gear from '../../assets/gear.png';
+import mic from '../../assets/mic.png';
 
-const Header = () => {
-  const [isOpen, isClosed] = useState();
+const Header = () => (
+  <header className="headerMain">
 
-  return (
-    <header>
-      <Hamburger
-        color="red"
-        toggled={isOpen}
-        toggle={isClosed}
-        duration={0.8}
-        label="Show menu"
-      />
-      {isOpen ? (
-        <ul>
+    <ul className="ulHeaderMain">
 
-          <li>
-            {' '}
-            <img src="dasdasddasda" alt="20px" />
-            {' '}
-            2015
-          </li>
-          <li>most views</li>
-          <li>
-            <img src="dasdasddasda" alt="20px" />
-            {' '}
-            <img src="dasdasddasda" alt="20px" />
-          </li>
+      <li className="backText">
+        {' '}
+        <img className="iconosMain" src={back} alt="20px" />
+        {' '}
+        2022
+      </li>
+      <li className="headerTitle">Coins</li>
+      <li className="micCon">
+        <img className="iconosMain" src={mic} alt="20px" />
+        {' '}
+        <img className="iconosMain" src={gear} alt="20px" />
+      </li>
 
-        </ul>
-      ) : null}
+    </ul>
 
-    </header>
+  </header>
 
-  );
-};
+);
 export default Header;

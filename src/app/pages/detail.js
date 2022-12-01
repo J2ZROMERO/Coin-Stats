@@ -13,14 +13,12 @@ const Details = () => {
 
   return (
     <>
-      <Header />
+      { dataCoins.coins[0].coins.map((x) => <Header key={x.id} name={x.name} />) }
       <section>
         {dataCoins.coins[0].coins.map((x) => (
           <Lichild
             key={x.id}
-            id={x.id}
             icon={x.icon}
-            name={x.name}
             symbol={x.symbol}
             rank={x.rank}
             price={x.price}
