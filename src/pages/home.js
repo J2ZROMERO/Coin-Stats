@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import Header from '../components/headerMain';
 import Lichild from '../components/liElementsitems';
 import { getCoinsData } from '../redux/coins';
-import '../styles/home.css';
 
 const HomePage = () => {
   const dataCoins = useSelector((state) => state);

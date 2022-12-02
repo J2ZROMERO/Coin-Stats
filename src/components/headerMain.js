@@ -1,7 +1,6 @@
-import '../styles/headerMain.css';
-import back from '../../assets/back.png';
-import gear from '../../assets/gear.png';
-import mic from '../../assets/mic.png';
+import back from '../assets/back.png';
+import gear from '../assets/gear.png';
+import mic from '../assets/mic.png';
 
 const Header = () => (
   <header className="headerMain">

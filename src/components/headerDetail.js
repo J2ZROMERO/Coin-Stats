@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import back from '../../assets/back.png';
-import gear from '../../assets/gear.png';
-import mic from '../../assets/mic.png';
-import '../styles/headerDetails.css';
+import back from '../assets/back.png';
+import gear from '../assets/gear.png';
+import mic from '../assets/mic.png';
 
 const Header = ({ name }) => (
   <header>

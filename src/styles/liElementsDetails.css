@@ -1,10 +1,11 @@
 
-* {
-  color: white;
-}
-
 .detailsCoin {
   margin: 0;
+}
+
+.detailsCoin > * > * > *,
+.detailsCoin > * > * {
+  color: white;
 }
 
 .detailsCoin li:nth-child(even) {
@@ -32,6 +33,13 @@
   width: 30%;
   height: 30%;
   text-align: center;
+  color: white;
+}
+
+.principalDetails > * > *,
+.principalDetails > * {
+  color: white;
+  font-size: 1.3em;
 }
 
 .detailSub {
