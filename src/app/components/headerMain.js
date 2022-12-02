@@ -9,9 +9,7 @@ const Header = () => (
     <ul className="ulHeaderMain">
 
       <li className="backText">
-        {' '}
         <img className="iconosMain" src={back} alt="20px" />
-        {' '}
         2022
       </li>
       <li className="headerTitle">Coins</li>
