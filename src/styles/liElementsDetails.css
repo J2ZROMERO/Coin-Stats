@@ -1,0 +1,82 @@
+
+.detailsCoin {
+  margin: 0;
+}
+
+.detailsCoin > * > * > *,
+.detailsCoin > * > * {
+  color: white;
+}
+
+.detailsCoin li:nth-child(even) {
+  background-color: #e94a88;
+}
+
+.detailsCoin li:nth-child(odd) {
+  background-color: #ce4177;
+}
+
+.detailsSubtitle {
+  background-color: #fc5294;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-block: 5%;
+}
+
+.detailsIconSubtitle {
+  width: 30%;
+  height: 30%;
+}
+
+.principalDetails {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  color: white;
+}
+
+.principalDetails > * > *,
+.principalDetails > * {
+  color: white;
+  font-size: 1.3em;
+}
+
+.detailSub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: 1em;
+}
+
+.moreDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 14%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.links a {
+  color: blue;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+
+.visit {
+  color: blue;
+  font-size: 1.3em;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+
+.subExtra {
+  font-size: 1.5em;
+}
