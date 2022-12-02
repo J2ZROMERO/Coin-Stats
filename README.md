@@ -75,8 +75,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Key features.
-
 - **[Consume API]**
 - **[Show specific element with details]**
 - **[Easy navigation]**
