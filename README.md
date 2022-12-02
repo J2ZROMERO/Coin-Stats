@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[your\_project\_name\] ](#-your_project_name-)
+- [📖 \[Coins Stat\] ](#-coins-stat-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -39,46 +39,35 @@ After you're finished please remove all the comments and instructions!
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Coins Stat] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> You can see the most popular cutting-edge crypto coins and more detail about them.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> This program is build with:
 
 <details>
-  <summary>Client</summary>
+  <summary>React Redux</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.npmjs.com/package/react-redux">React Redux</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a  href="https://www.netlify.com/">Netlify</a></li>
   </ul>
 </details>
 
@@ -86,11 +75,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Key features.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Consume API]**
+- **[Show specific element with details]**
+- **[Easy navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,9 +87,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Enjoy the interactive project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://phenomenal-donut-e18495.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,13 +97,22 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> If you want to use this project please, follow these steps.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+> You must have an account on git hub. [Git Hub](https://github.com/)
+
+> You must have installed git in your local environment. [Git](https://git-scm.com/download/win)
+
+> If you just want to take a look quickly, make a fork and open the project in the web browser by adding ".dev" instead of ."com" in the repo link.
+- Example : https://github.dev/J2ZROMERO/Coin-Stats
+
+> Install a text-editor you prefer. [Code editors](https://desarrolloweb.com/colecciones/editores-codigo).
+
 
 <!--
 Example command:
@@ -127,6 +125,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+> Execute git clone [repo link] in your git bash or terminal.
 
 <!--
 Example commands:
@@ -140,7 +139,11 @@ Example commands:
 ### Install
 
 Install this project with:
-
+Go to your folder where you cloned the repo :
+- open the git bash there or go with cmd.
+- execute "code ."
+- once the project is open please exute.
+- npm install.
 <!--
 Example command:
 
@@ -153,6 +156,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- npm start
 
 <!--
 Example command:
@@ -165,6 +169,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+- npm run test
 
 <!--
 Example command:
@@ -177,7 +182,8 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-
+- step 1: npm run build
+- step 2: serve -s build
 <!--
 Example:
 
@@ -190,33 +196,15 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+👤 **JOSE ZEPEDA**
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [J2ZROMERO](https://github.com/J2ZROMERO)
+- Twitter: [@JOSEZEPED4](https://twitter.com/JOSEZEPED4)
+- LinkedIn: [JOSE ZEPEDA](https://www.linkedin.com/in/jose-zepeda-733ab91ab/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,9 +222,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> Feel free to contac me if have some insights or doubts, I will be happy to help you.
 
-If you like this project...
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,25 +232,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank...
+- [Design inspired by 
+Nelson Sakwa Author Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- [For the support received by ABUBAKAR HUMAR](https://github.com/Haywayaheadshot)
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
