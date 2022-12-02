@@ -24,7 +24,7 @@ const Lichild = ({
         <div className="detailSub subExtra">
           Symbol:
           <h1>{symbol }</h1>
-                 </div>
+        </div>
 
         <div className="detailSub subExtra">
           Rank:
