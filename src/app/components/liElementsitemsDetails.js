@@ -21,13 +21,10 @@ const Lichild = ({
     <li className="detailsSubtitle">
       <img src={icon} alt="10px" className="detailsIconSubtitle" />
       <div className="principalDetails">
-        {' '}
         <div className="detailSub subExtra">
           Symbol:
           <h1>{symbol }</h1>
-          {' '}
-
-        </div>
+                 </div>
 
         <div className="detailSub subExtra">
           Rank:

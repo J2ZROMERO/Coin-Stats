@@ -21,7 +21,6 @@ const Lichild = ({
         <h1 className="nameCoin" id={id}>{title}</h1>
         <h2 className="priceCoin" id={id}>
           Price:
-          {' '}
           {extraData}
         </h2>
       </li>
