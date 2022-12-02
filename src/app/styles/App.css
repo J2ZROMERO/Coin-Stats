@@ -1,7 +1,8 @@
-.App{
-  width:767px;
+.App {
+  width: 767px;
 }
-body{
+
+body {
   display: flex;
   justify-content: center;
 }

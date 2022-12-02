@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import  headerMain from '../components/headerMain';
+// eslint-disable-next-line no-unused-vars
+import headerMain from '../components/headerMain';
 
 describe('Unit test', () => {
   it('Should render details of coins and compare with Snapshot', () => {
@@ -8,4 +9,3 @@ describe('Unit test', () => {
     expect(asFragment(<headerMain />)).toMatchSnapshot();
   });
 });
-

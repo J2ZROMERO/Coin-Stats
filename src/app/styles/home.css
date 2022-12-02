@@ -1,29 +1,29 @@
 @import './generalStyles.css';
 
-    .PrincipalContent{
-        
-    }
+.showAllCoins {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
 
-  .showAllCoins{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    margin: 0;
- }
-  a:nth-child(4n+1) {
-    background:#de4984;
-  }
-  a:nth-child(4n+4) {
-    background:#de4984;
-  }
-  a{
-    background-color: #cf4278;
-  }
-  .coinstitle{
-    background-color: #fb7eff;
-    height: 60px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
+a:nth-child(4n+1) {
+  background: #de4984;
+}
+
+a:nth-child(4n+4) {
+  background: #de4984;
+}
+/* stylelint-disable */
+a  {
+  background-color: #cf4278;
+}
+/* stylelint-enable */
+.coinstitle {
+  background-color: #fb7eff;
+  height: 60px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
