@@ -22,19 +22,19 @@ const Lichild = ({
       <img src={icon} alt="10px" className="detailsIconSubtitle" />
       <div className="principalDetails">
         {' '}
-        <h1 className="detailSub subExtra">
+        <div className="detailSub subExtra">
           Symbol:
-          <h2>{symbol }</h2>
+          <h1>{symbol }</h1>
           {' '}
 
-        </h1>
+        </div>
 
-        <h1 className="detailSub subExtra">
+        <div className="detailSub subExtra">
           Rank:
-          <h2>{rank }</h2>
+          <h1>{rank }</h1>
           {' '}
 
-        </h1>
+        </div>
 
         <a className="visit" href={websiteUrl}>Visit WebSite</a>
       </div>
