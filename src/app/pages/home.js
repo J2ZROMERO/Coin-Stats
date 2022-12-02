@@ -7,7 +7,6 @@ import '../styles/home.css';
 
 const HomePage = () => {
   const dataCoins = useSelector((state) => state);
-
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCoinsData());
