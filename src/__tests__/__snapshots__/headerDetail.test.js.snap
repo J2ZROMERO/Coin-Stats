@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test Should render details of coins and compare with Snapshot 1`] = `
+<DocumentFragment>
+  <headerdetails
+    name="some"
+  />
+</DocumentFragment>
+`;
